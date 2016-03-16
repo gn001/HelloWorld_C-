@@ -11,6 +11,11 @@ int main()
 	std::cin.clear(); // reset any error flags
 	std::cin.ignore(32767, '\n'); // ignore any characters in the input buffer until we find an enter character
 	std::cin.get(); // get one more char from the user
+	// mo
+	// comments
+	// mo
+	// money
+	// bitch
 	return 0;
 }
 
