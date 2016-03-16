@@ -8,9 +8,11 @@
 int main()
 {
 	std::cout << "Hello world! (Keep hitting enter!)" << std::endl; // It should ignore everything on the end of this line, right?
-																	/** cout and endl are part of the iostream library, cout is a console output command whereas
-																	endl pretty much tells the compiler to ignore everything to the right of that line
-																	hence endl meaning "end line". makes sense I suppose **/
+					
+							/** cout and endl are part of the iostream library, cout is a console output command whereas
+							endl pretty much tells the compiler to ignore everything to the right of that line
+							hence endl meaning "end line". makes sense I suppose **/
+
 	std::cout << "Or not, whatever";
 	std::cin.clear(); // reset any error flags
 	std::cin.ignore(32767, '\n'); // ignore any characters in the input buffer until we find an enter character
