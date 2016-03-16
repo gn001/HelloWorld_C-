@@ -1,5 +1,5 @@
 // HelloWorld.cpp : Defines the entry point for the console application.
-//
+// I'll tidy it all up once I stop fucking around, so probably never.
 
 #include "stdafx.h"
 #include <iostream>
@@ -7,10 +7,10 @@
 
 int main()
 {
-	std::cout << "Hello world! (Keep hitting enter!)";
-	std::cin.clear(); // reset any error flags
-	std::cin.ignore(32767, '\n'); // ignore any characters in the input buffer until we find an enter character
-	std::cin.get(); // get one more char from the user
+	std::cout << "Hello world! (Keep hitting enter!)" << std::endl; // It should ignore everything on the end of this line, right?
+																	/** cout and endl are part of the iostream library, cout is a console output command whereas
+																	endl pretty much tells the compiler to ignore everything to the right of that line
+																	hence endl meaning "end line". makes sense I suppose **/
 	std::cout << "Or not, whatever";
 	std::cin.clear(); // reset any error flags
 	std::cin.ignore(32767, '\n'); // ignore any characters in the input buffer until we find an enter character
@@ -49,4 +49,3 @@ int main()
 					careful with your shitcommenting **/
 	return 0;
 }
-
